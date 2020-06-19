@@ -1,0 +1,18 @@
+body{
+	margin: 0px auto;
+	padding: 0;
+	background-image: linear-gradient(to right,#fdfbfb,#ebedee)
+
+}
+.container{
+	width: 40%;
+	margin: 0px auto;
+}
+#top{
+	height: 50px;
+	background-color: #E1FFFF;
+}
+#footer{
+	height: 50px;
+	background-color: #E1FFFF;
+}

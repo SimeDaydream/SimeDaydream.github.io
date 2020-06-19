@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>zuoye</title><!-- 标题 -->
+    <link rel="stylesheet" type="text/css" href="css/index.css"><!-- 链接css -->
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div id="top"><!-- 命名 -->
+        <div class="container"></div><!-- 调用css -->
+        <!-- 头部 -->
+        <div id="header"><!-- 命名 -->
+            <div class="container"><!-- 添加到容器 -->
+                <ul class="right"><!-- 向右浮动，添加相关功能 -->
+                    <li><a href="#">你好</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li><a href="#">留言</a></li>
+                    <li><a href="#">关于</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 导航 -->
+        <div id="nav">
+            <div class="container">
+                <div class="logo left">
+                    <img src="images/3.png"><!-- 添加logo图片，向左浮动， -->
+                </div>
+                <ul class="right btn">
+                    <li><a href="javascript:;">制作自己的简历</a></li><!-- 链接向右浮动 -->
+                    <li><a href="javascript:;">赞</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 设置个人简历部分 -->
+        <div id="personal">
+            <div class="container">
+                <img src="images/4.png">
+                <img src="images/7.png">
+                <h1>网易暑假实习生的简历</h1>
+                <h5>简历过了，测试没过</h5>
+                <p>dbq我太菜了</p>
+                <p>再练练噫呜呜噫</p>
+            </div>
+
+        </div>
+        <!-- 个人技能部分 -->
+        <div id="skill">
+            <div class="container">
+                <div class="skill_top">
+                    <img src="images/8.png">
+                </div>
+                <ul>
+                    <li>
+                        <div>
+                            <img src="images/5.png">
+                        </div>
+                        <h2>角色设计</h2>
+                        <p>自行创作绘制</p>
+                        <p>游戏动漫等虚拟角色</p>
+                    </li>
+                    <li class="line"></li>
+                    <li>
+                        <div>
+                            <img src="images/6.png">
+                        </div>
+                        <h2>插画绘制</h2>
+                        <p>原创同人角色的绘制</p>
+                        <p>用于游戏动漫类的美宣作品</p>
+                    </li>
+                    <li class="line"></li>
+                    <li>
+                        <div>
+                            <img src="images/9.png">
+                        </div>
+                        <h2>平面动画</h2>
+                        <p>LIVE2D动画绘制制作</p>
+                        <p><a href="videos/plays.html">视频展示</a></p>
+                    </li>
+                    <li class="line"></li>
+                    <li>
+                        <div>
+                            <img src="images/10.png">
+                        </div>
+                        <h2>平面设计</h2>
+                        <p>构建图形之间融合</p>
+                        <p>用于海报页面等展示作品的制作</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- 个人媒体部分 -->
+        <div id="after_sale">
+            <div class="container">
+                <img src="images/11.png">
+                <ul><!-- 创作无序列表 -->
+                    <li><!-- 间隔线 -->
+                        <ol><!-- 创作有序列表 -->
+                            <li><a href="https://weibo.com/">微博</a></li>
+                            <li><a href="https://weibo.com/">-S-i-m-e-</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <ol>
+                            <li>
+                                </span><a href="http://www.lofter.com/">LOFTER</a></li>
+                            <li>
+                                </span><a href="http://www.lofter.com/">s-i-m-e</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <ol>
+                            <li><a href="https://bcy.net/">半次元</a></li>
+                            <li><a href="https://bcy.net/">-Sime-</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <ol>
+                            <li>
+                                </span><a href="https://huaban.com/home/">花瓣</a></li>
+                            <li>
+                                </span><a href="https://huaban.com/home/">Sime</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <ol>
+                            <li><a href="https://www.bilibili.com/">哔哩哔哩</a></li>
+                            <li><a href="https://www.bilibili.com/">-Sime-</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <ol>
+                            <li><a href="#">QQ</a></li>
+                            <li><a href="#">2637028332</a></li>
+                            <li>
+                                </span>
+                                <a href="#"></a>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 页面的底部 -->
+        <div id="footer">
+            <div class="container">
+                <p>
+
+                    <span>@2020 信息技术学院数字媒体技术WEB课程</span><!-- 无换行标签 -->
+                    <a href="#">WEB</a>
+                    <a href="#">期末作品</a>
+                    <a href="#">做的垃圾</a>
+                    <a href="#">给个过吧</a>
+                    <a href="#">版权</a>
+                </p>
+            </div>
+        </div>
+</body>
+<script>
+    var rightli = document.querySelectorAll(".btn li")[0];//获得DOM
+    var goodLike = document.querySelectorAll(".btn li")[1];
+    var nav = document.getElementById("nav");
+
+    goodLike.onclick = function() {//添加点击事件
+        this.children[0].innerHTML = "已赞";
+        this.children[0].style.color = "red";
+    }
+    rightli.onclick = function() {//调用api alert函数，弹窗，内容为敬请期待。
+        alert("敬请期待");
+    }
+    window.addEventListener('scroll', function() {//添加滚动条事件。
+        if (pageYOffset >= 117) {//如果滚动条垂直移动超过117px将执行if里的功能。
+            nav.style.position = "fixed";
+            nav.style.top = "0px";
+            nav.style.width = "100%";
+            nav.style.zIndex = "999";
+        } else {
+            nav.style.position = "static";//如果没有超过117px，将恢复原状。
+        }
+
+    })
+</script>
+
+</html>

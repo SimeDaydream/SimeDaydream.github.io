@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ol,ul{
+	list-style-type: none;
+}
+a{
+	color: #666;
+	text-decoration: none;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+
+.container{
+	width: 1280px;
+	margin: 0px auto;
+}*/
+
+/*设置页面顶部的样式*/
+#top{
+	height: 5px;
+	background-color: #00925F;
+}
+/*设置页面头部的样式*/
+#header{
+	height:30px;
+	background-color: #E1FFFF;
+}
+#header .header_left div{
+	float: left;
+	margin: 5px 1px 0px;
+}
+#header ul li{
+	float: left;
+	line-height: 25px;
+}
+#header li a{
+	color: #B2B2B2;
+	font-size: 13px;
+	border-right: 1px solid #B2B2B2;
+	padding: 0px 10px;
+}
+#header li a:hover{
+	color:#f37784;
+
+}
+/*设置导航栏的样式*/
+#nav li{
+	float:left;
+	margin:0px 15px;
+}
+#nav li a{
+	color: #F0F8FF;
+	font-weight: bold;
+}
+#nav li a：visited{
+	color: 	#F2F2F2;
+}
+#nav li a:hover{
+	color:#f37784;
+}
+#nav li a：active{
+	color:  #AFEEEE;
+	font-weight: bold;
+}
+#nav{
+	height: 90px;
+	background-color: #AFEEEE;
+}
+#nav li{
+	float:left;
+	margin:0px 15px;
+	line-height: 90px
+}
+
+/*设置个人简历的样式*/
+#personal {
+	text-align:center;
+	margin:auto;
+	margin-top: 5%;
+	color:white;
+}
+/*设置技能部分的样式*/
+#skill{
+	height: 800px;
+	background-color: #F2F2F2;
+}
+#skill .skill_top{
+	text-align: center;
+	margin: 10px;
+}
+#skill ul{
+	margin: 10px auto;
+}
+#skill li{
+	width:300px;
+	float:left;
+	border-bottom: 4px solid #DFDFDF;/*下边框显示*/
+	transition: all .3s;/*过渡时间增长，添加过渡效果*/
+}
+#skill li:hover{/*鼠标停留*/
+	border-bottom: 4px solid 	#008080;/*颜色变化*/
+	transform: translateY(-10px);/*方向Y减少10px*/
+}
+#skill li img{
+	width: 300px;
+}
+#skill li h2{
+	text-align: center;
+	margin-top: 10px;
+}
+#skill li p{
+	text-align: center;
+	margin:10px 0px;
+	font-size: 15px;
+	color: 	#008080;
+}
+#skill li a:link{
+	color: #008080;
+	font-weight: bold;
+}
+#skill li a:visited{
+	color:#CD4F39;
+}
+#skill li a:hover{
+	text-decoration:underline;
+	color:#f37784;
+}
+#skill li a:active{
+	color:#B7B7B7;
+}
+#skill .line{
+	width:10px;
+	height:450px;
+	border-left: 1px solid #EAEAEA;
+	margin :0px 7px;
+}
+
+/*设置个人媒体样式*/
+#after_sale{
+	height: 200px;
+	background-color: #fff;
+}
+#after_sale ul{
+	width: 1110px;
+	margin: 0px auto;
+	padding-top: 20px;
+}
+#after_sale ul li{
+	width: 140px;
+	float: left;
+	text-align: center;
+	margin: 0px 20px;
+}
+#after_sale ol>li{
+	line-height: 30px;
+}
+#after_sale ol>li:first-child a{
+	font-weight: bold;
+}
+
+/*页面底部的样式*/
+#footer{
+	height: 40px;
+	background-color: #AFEEEE;
+}
+#footer p{
+	line-height: 40px;
+}
+
+#footer p span{
+	color: #828282;
+	margin: 0px 430px 0px 20px;
+}
+#footer p a{
+	color: #fff;
+	margin: 0px 10px;
+}
+#footer p a:hover{
+	color: #f37784;
+}
